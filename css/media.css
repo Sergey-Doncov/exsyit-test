@@ -1,0 +1,52 @@
+@media (max-width: 960px) {
+	.head__text-first a, .head__text-second a {
+		font-size: 25px!important;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.contacts-block {
+		width: 80%!important;
+		float:left!important;
+		margin-top: 40px;
+	}
+
+	.left, .right {
+		display: none!important;
+	}
+
+	.head__menu-item {
+		display: none!important;
+	}
+
+	.logo {
+	    position: absolute!important;
+	    top: 0px!important;
+	    left: 40px!important;
+	}
+}
+
+@media (max-width: 767px) {
+	.head__menu-btn {
+		position: absolute;
+		top: 0px!important;
+		right: 5px!important;
+	}
+}
+
+@media (max-width: 576px) {
+	.box-modal {
+		width: 300px!important;
+		height: 200px;
+		text-align: center;
+	}
+	
+	.head__menu-btn {
+		position: absolute;
+		top: 0px!important;
+		right: 5px!important;
+		width: 170px!important;
+		height: 40px!important;
+	}
+}
